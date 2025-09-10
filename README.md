@@ -1,10 +1,6 @@
 # SVGazeD is a statistical index suitable for modeling aggregated visual perception differences during the observation of different cartographic backgrounds.
 The calculation of SVGazeD is based on the computation of the GraphGazeD metric and on the utilization of raw experimental eye tracking data.
 
->A full description of the GraphGazeD tool is cited in the paper below (please cite this paper as reference to GraphGazeD tool):
-
->Liaskos, D., & Krassanakis, V. (2024). OnMapGaze and GraphGazeD: A Gaze Dataset and a Graph-Based Metric for Modeling Visual Perception Differences in Cartographic Backgrounds Used in >Online Map Services. Multimodal Technologies and Interaction, 8(6). https://doi.org/10.3390/mti8060049
-
 This metric considers the area under the curve (AUC) of the mathematical models (6th degree polynomial function, rectangular hyperbola function, logistic function) that could be used in order to produce the GraphGazeD metric.
 SVGazeD simplifies the GraphGazeD by providing a single-value metric that compares aggregated observation patterns among alternative cartographic backgrounds.
 
